@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An exceptionally organized, self-driven, and results-focused professional with outstanding interpersonal communication abilities and a strong background in computer engineering.">
+  <title>Resume | Nayan Soni</title>
+  <link rel="shortcut icon" href="http://example.com/img/logo-black.png" hreflang="en-us">
+  <meta property="og:title" content="Resume | Nayan Soni">
+  <meta property="og:description" content="An exceptionally organized, self-driven, and results-focused professional with outstanding interpersonal communication abilities and a strong background in computer engineering.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://www.example.com/resume">
+  <meta property="og:site_name" content="Resume | Nayan Soni">
+  <meta property="og:image" content="http://example.com/img/og.png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="672">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:locale" content="en_US">
+  <meta name="keywords" content="Nayan Soni, web developer, software engineer, quantum computing, node.js, react.js">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div id="content"></div>
+  <script src="https://fb.me/react-0.14.6.js"></script>
+  <script src="https://fb.me/react-dom-0.14.6.js"></script>
+  <script src="https://unpkg.com/react@0.12.1/dist/JSXTransformer.js"></script>
+  <script type="text/jsx">
+
+    var DATA = {
+      name: "Hey, I'm Nayan Soni",
+      subtext: "Developer & designer based in Bangalore, India",
+      jobStatus: "Student @ SRM University",
+      twitterURL: 'https://twitter.com/nayan2soni',
+      instaURL: 'https://www.instagram.com/nayan2soni/',
+      githubURL: 'https://github.com/nayan2soni',
+      linkedinURL: 'https://www.linkedin.com/in/nayansoni',
+      resumeURL: 'http://example.com/resume.pdf'
+    }
+
+    var App = React.createClass({
+      render: function() {
+        return(
+          <div className="app">
+            <Left
+              name={this.props.profileData.name}
+              subtext={this.props.profileData.subtext}
+              jobStatus={this.props.profileData.jobStatus}
+              twitterURL={this.props.profileData.twitterURL}
+              instaURL={this.props.profileData.instaURL}
+              githubURL={this.props.profileData.githubURL}
+              linkedinURL={this.props.profileData.linkedinURL}
+            />
+            <Right
+              intro={this.props.profileData.intro}
+              resumeURL={this.props.profileData.resumeURL}
+            />
+          </div>
+        );
+      }
+    });
+
+    var Left = React.createClass({
+      render: function() {
+        return(
+          <div className="left">
+            <div className="bg-img"></div>
+            <div className="left-inner">
+              <div className="info">
+                <h2 className="name">{this.props.name}</h2>
+                <div className="subtext">{this.props.subtext}</div>
+                <div className="jobStatus">{this.props.jobStatus}</div>
+                <div className="social-links">
+                  <a href={this.props.twitterURL} target="_blank"><i className="fa fa-twitter"></i></a>
+                  <a href={this.props.instaURL} target="_blank"><i className="fa fa-instagram"></i></a>
+                  <a href={this.props.githubURL} target="_blank"><i className="fa fa-github"></i></a>
+                  <a href={this.props.linkedinURL} target="_blank"><i className="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      }
+    });
+
+    var Right = React.createClass({
+      render: function() {
+        return(
+          <div className="right">
+            <div className="right-inner">
+              <div className="introduction">
+                <h4>Intro</h4>
+                <div className="content">
+                  <p className="intro-p">I'm currently studying Computer Science Engineering at SRM University.</p>
+                  <p className="intro-p">I enjoy being the bridge between engineering and design, and feel right at home as a front end engineer. I'm experienced in developing and designing products for the web, from simple landing pages to full-fledged web apps.</p>
+                  <span className="intro-p job-pls">I'm currently looking for internship opportunities to further my experience in the industry!</span>
+                </div>
+              </div>
+              <div className="skills">
+                <h4>Skills</h4>
+                <div className="content">
+                  <div className="skill-category">
+                    <strong>Languages: &nbsp;</strong>
+                    <span>JavaScript (ES6), HTML5, CSS3, Java, Python</span>
+                  </div>
+                  <div className="skill-category">
+                    <strong>Libraries &amp; Frameworks: &nbsp;</strong>
+                    <span>Node.js, Express.js, React.js, Redux, Sequelize</span>
+                  </div>
+                  <div className="skill-category">
+                    <strong>Tools: &nbsp;</strong>
+                    <span>Git & GitHub, Command Line, Postman, Docker, Jest, Enzyme</span>
+                  </div>
+                </div>
+              </div>
+              <div className="education">
+                <h4>Education</h4>
+                <div className="content">
+                  <div className="university"><a href="http://www.srmuniv.ac.in/" target="_blank">SRM University</a></div>
+                  <div className="college"><a href="http://www.srmuniv.ac.in/content/school-computing" target="_blank">School of Computing</a></div>
+                  <div className="major"><strong>Major:</strong> Computer Science Engineering</div>
+                  <div className="grad-date">Expected Graduation: May 2026</div>
+                </div>
+              </div>
+              <div className="experience">
+                <h4>Experience</h4>
+                <div className="content">
+                  <div className="exp-item">
+                    <div className="job">
+                      <a className="company" href="#" target="_blank">Project</a>
+                      <div className="duration">Quantum Fourier Transform</div>
+                    </div>
+                    <div className="title">Developer</div>
+                    <ul className="description">
+                      <li>Developed and implemented the Quantum Fourier Transform (QFT) from scratch by creating custom quantum gates, building and validating the circuit, and optimizing performance using quantum computing frameworks.</li>
+                    </ul>
+                  </div>
+                  <div className="exp-item">
+                    <div className="job">
+                      <a className="company" href="#" target="_blank">Project</a>
+                      <div className="duration">Customer Loyalty Points Management System</div>
+                    </div>
+                    <div className="title">Full Stack Developer</div>
+                    <ul className="description">
+                      <li>Developed a Customer Loyalty Management System using Node.js, Express.js, Sequelize, and jQuery for managing customer registrations, transactions, and loyalty data. Implemented RESTful APIs and integrated a MySQL database.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="projects">
+                <h4>Projects</h4>
+                <div className="content">
+                  <div className="project-item">
+                    <div className="project-title">Local Business Points System</div>
+                    <p className="project-desc">Built a robust Customer Loyalty Program Management System with Node.js, Express.js, React.js, Redux, and PostgreSQL. Features include customer and transaction management, product and reward tracking, and secure JWT authentication.</p>
+                  </div>
+                  <div className="project-item">
+                    <div className="project-title">Sudoku Solver</div>
+                    <p className="project-desc">This Sudoku Solver is a program written in C that solves Sudoku puzzles using a backtracking algorithm. It provides a simple command-line interface for inputting Sudoku puzzles and displays the solved puzzle.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="resume">
+                <h4>Resume</h4>
+                <a href={this.props.resumeURL} target="_blank">View my Resume</a>
+              </div>
+            </div>
+          </div>
+        );
+      }
+    });
+
+    ReactDOM.render(<App profileData={DATA} />, document.getElementById('content'));
+
+  </script>
+</body>
+</html>
