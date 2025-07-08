@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Heading, Flex, Text, Button, Avatar, RevealFx, Column, Badge, Row, Meta, Schema } from "@once-ui-system/core";
-import { home, about, person, newsletter, baseURL, routes } from "@/resources";
+import { home, about, person, hireMe, baseURL, routes } from "@/resources";
 import { Mailchimp } from "@/components";
 import { Projects } from "@/components/work/Projects";
 import { Posts } from "@/components/blog/Posts";
@@ -71,7 +71,26 @@ export default function Home() {
         <Projects range={[1, 1]} />
       </RevealFx>
       <Projects range={[2]} />
-      {newsletter.display && <Mailchimp newsletter={newsletter} />}
+      {hireMe.display && (
+        <Flex fillWidth horizontal="center" paddingY="xl">
+          <Column maxWidth="s" gap="m" horizontal="center" style={{ textAlign: "center" }}>
+            <Heading variant="display-strong-s">{hireMe.title}</Heading>
+            <Text variant="body-default-l" onBackground="neutral-weak">
+              {hireMe.description}
+            </Text>
+            <Button
+              href={hireMe.buttonLink}
+              data-border="rounded"
+              variant="primary"
+              size="l"
+              weight="default"
+              prefixIcon="email"
+            >
+              {hireMe.buttonText}
+            </Button>
+          </Column>
+        </Flex>
+      )}
     </Column>
   );
 }

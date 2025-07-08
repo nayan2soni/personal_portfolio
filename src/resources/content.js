@@ -21,15 +21,17 @@ const person = {
   resume: "/images/Resume (8).pdf", // Path to resume PDF
 };
 
-const newsletter = {
+const hireMe = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Looking to hire a developer?</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I'm available for freelance work and full-time opportunities.<br />
+      Let's discuss your project and see how I can help bring your ideas to life.
     </>
   ),
+  buttonText: "Contact Me",
+  buttonLink: "/contact",
 };
 
 const social = [
@@ -349,4 +351,4 @@ const gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, hireMe, home, about, blog, work, gallery };
