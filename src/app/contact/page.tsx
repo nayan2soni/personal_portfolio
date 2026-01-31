@@ -41,8 +41,8 @@ export default function Contact() {
         <Column gap="m" horizontal="center" style={{ textAlign: "center" }}>
           <Heading variant="display-strong-s">Get In Touch</Heading>
           <Text variant="body-default-l" onBackground="neutral-weak">
-            I'm always interested in new opportunities and exciting projects.<br />
-            Let's discuss how I can help bring your ideas to life.
+            I&apos;m always interested in new opportunities and exciting projects.<br />
+            Let&apos;s discuss how I can help bring your ideas to life.
           </Text>
         </Column>
 

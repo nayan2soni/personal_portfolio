@@ -26,8 +26,8 @@ const hireMe = {
   title: <>Looking to hire a developer?</>,
   description: (
     <>
-      I'm available for freelance work and full-time opportunities.<br />
-      Let's discuss your project and see how I can help bring your ideas to life.
+      I&apos;m available for freelance work and full-time opportunities.<br />
+      Let&apos;s discuss your project and see how I can help bring your ideas to life.
     </>
   ),
   buttonText: "Contact Me",
@@ -58,7 +58,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Hi, I'm {person.name} – Software Developer & AI Enthusiast</>,
+  headline: <>Hi, I&apos;m {person.name} – Software Developer & AI Enthusiast</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Customer Loyalty Points Management System</strong></>,
@@ -206,7 +206,7 @@ const about = {
         link: "https://www.coursera.org/account/accomplishments/records/N1K2NMRIM7XO",
         description: (
           <>
-            <a href="https://www.coursera.org/account/accomplishments/records/N1K2NMRIM7XO" target="_blank" rel="noopener noreferrer" style={{color: '#0070f3', textDecoration: 'underline', fontWeight: 500}}>Show credential</a>
+            <a href="https://www.coursera.org/account/accomplishments/records/N1K2NMRIM7XO" target="_blank" rel="noopener noreferrer" style={{ color: '#0070f3', textDecoration: 'underline', fontWeight: 500 }}>Show credential</a>
           </>
         ),
       },
@@ -217,7 +217,7 @@ const about = {
         link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_v83dtExEfb4zxa6d3_1728201780084_completion_certificate.pdf",
         description: (
           <>
-            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_v83dtExEfb4zxa6d3_1728201780084_completion_certificate.pdf" target="_blank" rel="noopener noreferrer" style={{color: '#0070f3', textDecoration: 'underline', fontWeight: 500}}>Show credential</a>
+            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_v83dtExEfb4zxa6d3_1728201780084_completion_certificate.pdf" target="_blank" rel="noopener noreferrer" style={{ color: '#0070f3', textDecoration: 'underline', fontWeight: 500 }}>Show credential</a>
           </>
         ),
       },
@@ -229,7 +229,7 @@ const about = {
         description: (
           <>
             Skills: Python (Programming Language)<br />
-            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_v83dtExEfb4zxa6d3_1721709294748_completion_certificate.pdf" target="_blank" rel="noopener noreferrer" style={{color: '#0070f3', textDecoration: 'underline', fontWeight: 500}}>Show credential</a>
+            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_v83dtExEfb4zxa6d3_1721709294748_completion_certificate.pdf" target="_blank" rel="noopener noreferrer" style={{ color: '#0070f3', textDecoration: 'underline', fontWeight: 500 }}>Show credential</a>
           </>
         ),
       },
@@ -241,7 +241,7 @@ const about = {
         description: (
           <>
             Skills: Data Visualization · Microsoft Excel · Microsoft PowerPoint · Microsoft Office<br />
-            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/JPMorgan%20Chase%20Corporate/XiuvjcwqWRqH9oy38_JPMorgan%20Chase%20&%20Co._v83dtExEfb4zxa6d3_1721702627585_completion_certificate.pdf" target="_blank" rel="noopener noreferrer" style={{color: '#0070f3', textDecoration: 'underline', fontWeight: 500}}>Show credential</a>
+            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/JPMorgan%20Chase%20Corporate/XiuvjcwqWRqH9oy38_JPMorgan%20Chase%20&%20Co._v83dtExEfb4zxa6d3_1721702627585_completion_certificate.pdf" target="_blank" rel="noopener noreferrer" style={{ color: '#0070f3', textDecoration: 'underline', fontWeight: 500 }}>Show credential</a>
           </>
         ),
       },
@@ -253,7 +253,7 @@ const about = {
         description: (
           <>
             Skills: Database Management System (DBMS)<br />
-            <a href="https://moonshot.scaler.com/s/li/ys9XGS-Uhu" target="_blank" rel="noopener noreferrer" style={{color: '#0070f3', textDecoration: 'underline', fontWeight: 500}}>Show credential</a>
+            <a href="https://moonshot.scaler.com/s/li/ys9XGS-Uhu" target="_blank" rel="noopener noreferrer" style={{ color: '#0070f3', textDecoration: 'underline', fontWeight: 500 }}>Show credential</a>
           </>
         ),
       },
@@ -264,7 +264,7 @@ const about = {
         link: "https://www.udemy.com/certificate/UC-9f64e766-a166-4c3a-8497-a2fce6a0ecc9/",
         description: (
           <>
-            <a href="https://www.udemy.com/certificate/UC-9f64e766-a166-4c3a-8497-a2fce6a0ecc9/" target="_blank" rel="noopener noreferrer" style={{color: '#0070f3', textDecoration: 'underline', fontWeight: 500}}>Show credential</a>
+            <a href="https://www.udemy.com/certificate/UC-9f64e766-a166-4c3a-8497-a2fce6a0ecc9/" target="_blank" rel="noopener noreferrer" style={{ color: '#0070f3', textDecoration: 'underline', fontWeight: 500 }}>Show credential</a>
           </>
         ),
       },
@@ -276,7 +276,7 @@ const about = {
         description: (
           <>
             Skills: Machine Learning<br />
-            <a href="https://www.credly.com/badges/c4bed8bc-c4aa-4ca1-8912-958df80b9c68/linked_in_profile" target="_blank" rel="noopener noreferrer" style={{color: '#0070f3', textDecoration: 'underline', fontWeight: 500}}>Show credential</a>
+            <a href="https://www.credly.com/badges/c4bed8bc-c4aa-4ca1-8912-958df80b9c68/linked_in_profile" target="_blank" rel="noopener noreferrer" style={{ color: '#0070f3', textDecoration: 'underline', fontWeight: 500 }}>Show credential</a>
           </>
         ),
       },
