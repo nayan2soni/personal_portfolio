@@ -8,7 +8,7 @@ const person = {
   },
   role: "Software Developer",
   avatar: "/images/profile.jpg", // Updated avatar
-  email: "nayan2soni@gmail.com",
+  email: "nayansoni306@gmail.com",
   location: "Bengaluru, Karnataka, India", // For display only
   timezone: "Asia/Kolkata", // For time display
   languages: [
