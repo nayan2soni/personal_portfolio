@@ -54,15 +54,15 @@ const social = [
 
 const home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/profile.jpg",
   label: "Home",
   title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
+  description: `${person.name}'s personal portfolio showcasing work in software development and AI engineering.`,
   headline: <>Hi, I&apos;m {person.name} – Software Developer & AI Enthusiast</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Customer Loyalty Points Management System</strong></>,
-    href: "https://github.com/nayan2soni/Customer-Loyalty-Points-Management-System",
+    title: <>Recent project: <strong className="ml-4">AtomX AI</strong></>,
+    href: "https://github.com/nayan2soni/atomxai",
   },
   subline: (
     <>
@@ -105,25 +105,27 @@ const about = {
     title: "Professional Experience",
     experiences: [
       {
-        company: "Orizn (ResNet Solutions)",
+        company: "Gradiante Creative Services",
+        timeframe: "02/2026 -- Present",
+        role: "AI Engineer",
+        achievements: [
+          <>Built an AI-powered platform for skill-based assessment and employee appraisal workflows, enabling efficient evaluation and performance tracking.</>,
+          <>Developed intelligent modules for automated candidate and employee skill analysis, improving assessment accuracy and scalability.</>,
+          <>Contributed to multiple AI-driven projects across analytics, workflow automation, and enterprise solutions.</>,
+          <>Worked on a government-focused project in collaboration with the Government of Gujarat, delivering scalable technology solutions for public-sector requirements.</>,
+          <>Tools: Python, Machine Learning, Next.js, Node.js, MongoDB, Tailwind CSS, Git</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Orizn.ai",
         timeframe: "05/2024 -- 07/2025",
-        role: "Software Developer",
+        role: "Software Developer - Frelance",
         achievements: [
           <>Developed a holiday package booking platform for ResNet Solutions (orizn.io), enhancing user interaction efficiency by 35% through streamlined Next.js components and documented APIs.</>,
           <>Configured MongoDB clusters, achieving 100% data retrieval accuracy for 500+ users, following coding standards.</>,
           <>Streamlined CI/CD pipelines, cutting deployment time by 40% and ensuring scalability with unit testing.</>,
           <>Tools: Next.js, Tailwind CSS, Node.js, MongoDB, Git</>,
-        ],
-        images: [],
-      },
-      {
-        company: "Disha Tutions",
-        timeframe: "06/2024 -- 07/2024",
-        role: "Software Developer",
-        achievements: [
-          <>Designed a responsive home tuition service website, boosting user engagement by 50% for 200+ users with accessible design.</>,
-          <>Improved HTML/CSS front-end, reducing load times by 30% and documented for seamless client handoff.</>,
-          <>Tools: HTML, CSS, Git</>,
         ],
         images: [],
       },
